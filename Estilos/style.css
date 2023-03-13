@@ -1,0 +1,86 @@
+/*Modificaciones generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h5 {
+    color: azure;
+}
+
+/*Titulo de la pagina*/
+h1 {
+    color: azure;
+    text-align: center;
+    margin: 30px auto;
+}
+
+/*Barra de navegacion */
+.navegacion{
+    width: 100%;
+    background-color: #C30DC8;
+}
+
+.navegacion_datos {
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 18px 20px 8px 20px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navegacion_datos_dp:hover {
+    background-color: bisque;
+}
+
+.navegacion_datos_fa:hover {
+    background-color: bisque;
+}
+
+.navegacion_datos_el:hover {
+    background-color: bisque;
+}
+
+/*Diseño del cuerpo de pagina*/
+body{
+    font-size: 20px;
+    background-color: hsl(212, 21%, 14%);
+    font-family: 'Roboto', sans-serif;
+}
+
+.carta {
+    width: 375px;
+    height: 520px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #EA94F1;
+    margin: 70px auto;
+    text-align: center;
+}
+
+span {
+    color: brown;
+    font-size: 25px;
+}
+
+.carta_imagen {
+    border-radius: 50%;
+}
+
+.carta_datos {
+    margin: 20px 0px 20px 0px;
+}
+
+/*Botones modificadores de estilo*/
+.modificadores {
+    padding: 5px;
+    background-color: #C30DC8;
+}
+
+/*Pie de pagina*/
+.pie{
+    text-align: right;
+    color: aliceblue;
+}

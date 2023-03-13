@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto final integrador</title>
+    <link rel="stylesheet" href="/Estilos/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <script>
+        let d = new Date();
+        document.body.innerHTML = "<h5>Hora en estos momentos:  " + d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds() + "hs."
+        "</h5>"
+    </script>
+    <h1>Experiencia laboral</h1>
+    <nav class="navegacion">
+        <ul class="navegacion_datos">
+            <li class="navegacion_datos_dp"><a href="/Paginas/informacion_personal.html">Informacion personal</a></li>
+            <li class="navegacion_datos_fa"><a href="/Paginas/formacion_academica.html">Formacion academica</a></li>
+            <li class="navegacion_datos_el"><a href="/Paginas/experiencia_laboral.html">Experiencia laboral</a></li>
+        </ul>
+    </nav>
+    <div class="carta">
+        <img class="carta_imagen" src="/Imagenes/imagen_perfil.jpg" alt="Foto de perfil del usuario">
+       <p class="carta_datos">
+        Trabaje desde el año <span>2013 hasta el 2020</span> en <span>jugeteria "Playtime"</span>. Luego de eso trabaje durante el año <span>2022 hasta hoy</span> como <span>asistente de desarrollo</span> en la empresa <span>Hillgate S.A.</span>.
+       </p>
+    </div>
+    <div class="modificadores">
+        <h6>Si desea modificar el color de fondo de la pagina, presione el siguiente boton:</h6>
+        <button id="modificadores_cambiar-color" onclick="cambiar_colorfondo()">Cambiar color de fondo</button>
+        <button id="modificadores_restaurar-color" onclick="restaurar_colorfondo()">Restaurar color de fondo</button>
+    </div>
+    <footer class="pie">
+        Creador: Nicolas E. Lavarello.
+    </footer>
+</body>
+<script src="/Js/buttons.js"></script>
+</html>
